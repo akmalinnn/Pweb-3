@@ -1,0 +1,140 @@
+
+	
+	/* wildcard styling */
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* padding for whole body */
+	body {
+		
+        background: linear-gradient(0deg, rgba(255,230,113,1) 0%, rgba(82,167,255,1) 100%);
+        
+	}
+
+	header {
+		
+		width: 100%;
+		background-color: #ffffff58;
+		position: flex;
+	}
+	
+	header h1{
+		display: block;
+		list-style: inside;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	.nav {
+		display: block;
+		list-style: inside;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	.nav li {
+		display: inline;
+	}
+	
+	.nav a {
+		display: inline-block;
+		color: #ffffff;
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	/* styling body */
+	.container {
+		max-width: 1200px;
+		margin: auto;
+        
+	}
+	
+	h1 {
+        font-family: 'Courier New', Courier, monospace;
+		color: rgb(255, 255, 255);
+		font-size: 30px;
+	}
+	
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+		color: rgb(255, 255, 255);
+	}
+	/* anchor tag decoration */
+	a {
+		text-decoration: none;
+		color: #5673C8;
+        font-family: 'Courier New', Courier, monospace;
+	}
+	
+	.content :hover {
+		background-color:  rgba(255, 255, 255, 0.7);
+	}
+	
+	/* paragraph tag decoration */
+	p {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		overflow: hidden;
+
+	}
+	
+	/* row and column decoration */
+	.row {
+		margin: 0px -18px;
+		padding: 8px;
+	}
+	
+	.row > .column {
+		padding: 6px;
+	}
+	
+	.column {
+		float: left;
+		width: 25%;
+        display: flex;
+	}
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	/* content decoration */
+	.content {
+		background-color:  rgba(255, 255, 255, 0.5);
+		padding: 10px;
+		border: 1px solid gray;
+        border-radius: 0.40rem;
+		
+	}
+
+	
+
+			/* create footer */
+	
+	/* window size 850 width set */
+	@media screen and (max-width: 850px) {
+		.column {
+			width: 50%;
+		}
+	}
+
+	/* window size 400 width set */
+	@media screen and (max-width: 400px) {
+		.column {
+			width: 100%;
+		}
+	}
+
+
+
+
